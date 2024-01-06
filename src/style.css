@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-bottom: 1px solid black;
+    padding: 30px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.main > div {
+    margin: 25px;
+}
+
+.heading {
+    font-size: 64px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    margin: 50px 0px;
+}
+
+.paragraph, .recipe, .info, .address {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    padding: 10px;
+}
+
+.recipe {
+    font-size: 21px;
+    font-weight: 200;
+
+    font-style: italic;
+}
+
+.menu > .heading {
+    margin: 20px 0px;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+    padding: 45px 0px;
+    width: 100%;
+
+    border-top: 1px solid black;
+    
+}
